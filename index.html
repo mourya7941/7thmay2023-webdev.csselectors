@@ -70,6 +70,16 @@ property:value;
         a[href="https://www.instagram.com"] {
             display: inline-block;
         }
+
+        /*
+       7.  css pesudo element selector ::
+
+        element::selector{
+            property:value;}
+            */
+        h1::after {
+            content: url('https://cdn.pixabay.com/animation/2022/08/01/20/42/20-42-37-53_512.gif');
+        }
     </style>
 </head>
 
@@ -78,6 +88,7 @@ property:value;
     <span id="a1">css id selector</span>
     <span class="b1">css class selector</span>
     <a href="https://www.instagram.com">css attribute selector</a>
+    <h1>css pseudo element selector</h1>
 
 </body>
 
